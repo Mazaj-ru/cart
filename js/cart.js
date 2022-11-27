@@ -24481,9 +24481,9 @@ const listIPv4 = [
   '10.0.32.20',
 ];
 
-function numberOfUniqueElements(arr) {
+const numberOfUniqueElements = (arr) => {
   const setSize = new Set(arr);
   return setSize.size;
-}
+};
 
-numberOfUniqueElements(listIPv4);
+console.log(numberOfUniqueElements(listIPv4));
